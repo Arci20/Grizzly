@@ -1,0 +1,346 @@
+body {
+   background-color: black;
+   padding: 3px;
+   margin: 0px;
+   box-sizing: border-box;
+   font-family: Inter;
+}
+
+.container1 {
+    display: block;
+    padding-top: 12rem;
+}
+
+#landing {
+    line-height: 65.35px;
+    font-weight: 800;
+    font-size: 44px;
+}
+
+.btn {
+    border-radius: 59px;
+    background-color: #B21B20;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    gap: 10px;
+}
+
+.btn-container {
+   padding-top: 2rem;
+}
+
+#demo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+
+#exclusive {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+
+#container2 {
+    padding-top: 8rem;
+}
+
+#Joaquin {
+    padding-top: 11rem;
+    position: sticky;
+}
+
+.joaquin {
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 65.35px;
+}
+
+.joaquin1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38.73px;
+}
+
+.joaquin2 {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77.45px;
+}
+
+#btn1 {
+    border-radius: 59px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    gap: 10px;
+    background-color: #F47B20;
+}
+
+.btn-container1 {
+    padding-top: 2rem;
+}
+
+.carousel1 {
+    padding-top: 11rem;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+}
+
+.numbers {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 10px 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 1000px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    text-align: center;
+    background-color: black;
+    transition: 0.3s;
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 30px 0 rgba(0,0,0,0.4);
+  }
+  
+  img {
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .arrow {
+    transform: rotate(181deg);
+    top: 10rem;
+    position: absolute;
+    left: 2rem;
+  }
+
+  #arrow {
+    position: absolute;
+    top: 10rem;
+  }
+
+  #img-col {
+    display:block;
+  }
+
+  .colMe {
+    padding-top: 3rem;
+  }
+
+  .rev-num {
+    display: flex;
+    padding-top: 2rem;
+  }
+
+  .review {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  #sec {
+    padding-top: 12rem;
+  }
+
+  .dot {
+    line-height: 24.2px;
+  }
+
+  .dot1 {
+    padding-top: 2px;
+  }
+
+  .elite1 {
+    padding-top: 3rem;
+    padding-left: 4rem;
+  }
+
+  .elite {
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+  }
+
+  .grizz {
+    font-weight: 800;
+    font-size: 4vw;
+    line-height: 65.35px;
+  }
+
+  #background {
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 0;
+  }
+
+  #bonus {
+    position: absolute;
+  }
+
+  /* .assetpic {
+   max-width: 686px;
+   max-height: 1038.38px;
+   position: static;
+  } */
+
+  .assets {
+    padding-top: 12rem;
+    padding-left: 2rem;
+  }
+
+  #bonuses {
+    color: #F47B20;
+  }
+
+  #counselor {
+    padding-left: 5rem;
+    padding-top: 5rem;
+  }
+
+  .triad {
+    position: absolute;
+    padding-top: 13rem;
+  }
+
+  .triad1 {
+    position: relative;
+    align-items: end;
+  }
+
+  .bear {
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  .logo-bear {
+    max-width: 100%;
+  }
+
+  .caption{
+    top: 70rem;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.habits {
+  position: relative;
+  bottom: 79rem;
+  
+}
+
+.white-back {
+  height: 88rem;
+  padding-top: 6rem;
+}
+
+.bonus {
+  max-width: 100%;
+  height: auto;
+}
+
+.assets1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.outcome1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.joaquin3 {
+  max-width: 100%;
+  height: auto;
+}
+ 
+#joaquinid {
+  font-size: 3vw;
+}
+
+.tri {
+  max-width: 100%;
+  height: auto;
+}
+
+.out {
+  padding-top: 25rem;
+}
+
+.upo1 {
+  position: absolute;
+  top: 263rem;
+  padding-bottom: 10px;
+}
+
+.guarant {
+  padding-top: 6rem;
+
+}
+
+.upo2 {
+  padding-top: 5rem;
+}
+
+.succ {
+  padding-top: 3rem;
+}
+
+.tux {
+  max-width: 100%;
+  height: auto;
+}
+
+.arrow1 {
+  transform: rotate(181deg);
+  top: 5rem;
+  position: absolute;
+  left: 2rem;
+}
+
+#arrow1 {
+  position: absolute;
+  top: 5rem;
+}
